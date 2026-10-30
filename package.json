@@ -4,6 +4,8 @@
   "private": true,
   "description": "SheShield – Intelligent Digital Identity Verification & Deepfake Detection System",
   "scripts": {
+    "build": "npm --prefix server install && npm --prefix client install && npm --prefix client run build",
+    "start": "node server/src/server.js",
     "server": "npm --prefix server run dev",
     "client": "npm --prefix client run dev",
     "build:client": "npm --prefix client run build"
