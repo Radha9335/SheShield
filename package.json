@@ -1,0 +1,11 @@
+{
+  "name": "sheshield-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SheShield – Intelligent Digital Identity Verification & Deepfake Detection System",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build"
+  }
+}
